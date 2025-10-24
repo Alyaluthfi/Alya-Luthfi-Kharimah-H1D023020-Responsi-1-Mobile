@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Responsi 1 Mobile H1D023020</string>
+    <string name="club_name">AJ Auxerre</string>
+    <string name="club_description">Association de la Jeunesse Auxerroise, commonly known as AJ Auxerre,
+        is a French football club based in the city of Auxerre in Burgundy.The club was founded in 1905.
+    </string>
+
+    <string name="menu_history">Club History</string>
+    <string name="menu_coach">Head Coach</string>
+    <string name="menu_squad">Team Squad</string>
+
+    <string name="coach_name">Christophe Pélissier</string>
+
+    <string name="label_dob">Tanggal Lahir</string>
+    <string name="label_nationality">Kebangsaan</string>
+    <string name="label_contract">Kontrak</string>
+
+    <string name="value_dob">1965-10-05</string>
+    <string name="value_nationality">France</string>
+    <string name="value_contract">2022-10 s.d 2027-06</string>
+
+    <string name="history_title">AJ Auxerre History</string>
+    <string name="history_text">
+        AJ Auxerre was founded in 1905 by Abbé Ernest Deschamps and quickly found success in the Catholic league, reaching the F.G.S.P.F.
+        Championship final in 1908. After World War I, the club moved to what would become the Abbé Deschamps Stadium.
+        Auxerre reached Division 1 for the first time in 1980, marked by strong performances and the arrival of prolific striker Andrzej Szarmach.
+        \n\n Throughout the 1980s, Auxerre rose in French football. They finished third in 1983–84 and entered European competition the following season.
+        Although early exits were common, the club steadily improved, achieving strong league positions and making deeper UEFA Cup runs.
+        They also developed notable talents and honored the memory of Michel N Gom, who tragically died in 1984.
+        \n\n In the early 1990s, Auxerre gained further European recognition, highlighted by a UEFA Cup semi-final run in 1992–93.
+        The team secured its first major trophy by winning the French Cup, followed by an historic 1995–96 season when they claimed both Division 1
+        and the Coupe de France, solidifying their place among France’s top clubs.
+        \n\n Auxerre remained in Ligue 1 until 2012 before facing years of struggle in Ligue 2. A brief return to the top tier in 2022 ended in immediate relegation, but the club continued to fight back.
+        On 11 May 2024, Auxerre secured another promotion to Ligue 1, marking their return to the top level after only one season away.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

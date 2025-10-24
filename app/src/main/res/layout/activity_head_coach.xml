@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".HeadCoachActivity">
+
+    <ImageView
+        android:id="@+id/img_coach_photo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ajauxerrecoach" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/club_blue"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_coach_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_name"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/label_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_dob"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_coach_name" />
+
+        <TextView
+            android:id="@+id/label_nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_nationality"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_dob" />
+
+        <TextView
+            android:id="@+id/label_contract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_contract"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_nationality" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier_labels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="label_dob,label_nationality,label_contract" />
+
+        <TextView
+            android:id="@+id/colon_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text=":"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_dob"
+            app:layout_constraintStart_toEndOf="@id/barrier_labels" />
+
+        <TextView
+            android:id="@+id/colon_nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text=":"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_nationality"
+            app:layout_constraintStart_toEndOf="@id/barrier_labels" />
+
+        <TextView
+            android:id="@+id/colon_contract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text=":"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_contract"
+            app:layout_constraintStart_toEndOf="@id/barrier_labels" />
+
+        <TextView
+            android:id="@+id/value_dob"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/value_dob"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_dob"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon_dob" />
+
+        <TextView
+            android:id="@+id/value_nationality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/value_nationality"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_nationality"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon_nationality" />
+
+        <TextView
+            android:id="@+id/value_contract"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/value_contract"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/label_contract"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/colon_contract" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="club_blue">#0059B3</color> ```
+    <color name="player_goalie">#FFEB3B</color>
+    <color name="player_defender">#2196F3</color>
+    <color name="player_midfielder">#4CAF50</color>
+    <color name="player_forward">#F44336</color>
+</resources>
